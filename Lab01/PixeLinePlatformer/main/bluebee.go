@@ -1,6 +1,6 @@
 components {
-  id: "bee"
-  component: "/main/bee.script"
+  id: "bluebee"
+  component: "/main/bluebee.script"
   position {
     x: 0.0
     y: 0.0
@@ -17,7 +17,7 @@ embedded_components {
   id: "sprite"
   type: "sprite"
   data: "tile_set: \"/main/platformer.tilesource\"\n"
-  "default_animation: \"bee\"\n"
+  "default_animation: \"bluebee\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
@@ -49,7 +49,7 @@ embedded_components {
   "    shape_type: TYPE_SPHERE\n"
   "    position {\n"
   "      x: 0.0\n"
-  "      y: -2.0\n"
+  "      y: -1.0\n"
   "      z: 0.0\n"
   "    }\n"
   "    rotation {\n"
@@ -61,7 +61,7 @@ embedded_components {
   "    index: 0\n"
   "    count: 1\n"
   "  }\n"
-  "  data: 3.735\n"
+  "  data: 4.1785\n"
   "}\n"
   "linear_damping: 0.0\n"
   "angular_damping: 0.0\n"

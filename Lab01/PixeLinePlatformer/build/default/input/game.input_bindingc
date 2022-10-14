@@ -2,4 +2,8 @@
  left
 	#right
 2fire
-6jump	touch
+6jump
+Rfire
+Sleft
+	Tright
+Qjump	touch
